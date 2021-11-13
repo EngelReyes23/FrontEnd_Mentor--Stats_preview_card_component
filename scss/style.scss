@@ -1,0 +1,35 @@
+$text-white: hsl(0, 0%, 100%);
+$Very_dark_blue: hsl(233, 47%, 7%);
+$Dark_desaturated_blue: hsl(244, 38%, 16%);
+$Soft_violet: hsl(277, 64%, 61%);
+
+body {
+	box-sizing: border-box;
+	padding: o;
+	margin: 0;
+	font-size: 15px;
+	background-color: hsl(233, 47%, 7%);
+	color: #fff;
+}
+
+@media (min-width: 768px) {
+	main {
+		min-height: 100vh;
+	}
+}
+
+main {
+	background-color: $Very_dark_blue !important;
+}
+
+.card-container {
+	background-color: $Dark_desaturated_blue;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
